@@ -1,7 +1,7 @@
 ## Thesis Title:
 **Bioinformatics and Deep Learning in Prognosis, Diagnosis, and Clinical Choice of Human Mpox Virus**
 
----
+
 
 ## Motivation:
 - **Mpox as a Growing Threat**: Mpox is spreading globally, and quick, accurate diagnosis is essential to control outbreaks effectively.
@@ -10,7 +10,7 @@
 - **Role of Bioinformatics**: Bioinformatics helps study the virus genetic data, identify strains, and track mutations for better disease management.
 - **Preparedness for Future Outbreaks**: Combining bioinformatics and AI can improve Mpox care and create a model for tackling other emerging diseases in the future.
 
----
+
 
 ## Objective:
 - **Enhance Diagnostic Accuracy**: Use deep learning models to improve the precision and speed of Mpox detection.
@@ -19,7 +19,7 @@
 - **Address Data Challenges**: Use synthetic data and transfer learning to overcome the limitations of small datasets.
 - **Facilitate Genomic Understanding**: Apply bioinformatics to study virus mutations and strains to improve outbreak control and disease management.
 
----
+
 
 ## Literature Review:
 
@@ -46,7 +46,7 @@
 - Develop Lightweight Models: Optimize models to run efficiently on mobile devices and low-resource systems.
 - Integrate Imaging and Genomic Data: Combine lesion images with genomic data for comprehensive diagnostic solutions.
 
----
+
 
 ### **Paper Title**: PoxNet22: A Fine-Tuned Model for the Classification of Monkeypox Disease Using Transfer Learning
 
@@ -71,7 +71,7 @@
 - Real-world Validation: Test the model in clinical settings to validate its effectiveness and reliability.
 - Lightweight Implementation: Optimize the model for deployment on edge devices for faster, resource-efficient diagnosis.
 
----
+
 
 ### **Paper Title**: Utilizing Convolutional Neural Networks to Classify Monkeypox Skin Lesions
 
@@ -96,7 +96,7 @@
 - Efficiency: Optimize the CNN architecture for deployment in resource-constrained environments like mobile devices.
 - Integration: Incorporate the model into telemedicine platforms for real-time diagnosis and improved healthcare accessibility.
 
----
+
 
 ### **Paper Title**: A deep-learning algorithm to classify skin lesions from mpox virus infection
 
@@ -121,7 +121,7 @@
 - Clinical Trials: Conduct prospective studies to validate the app’s real-world effectiveness and compliance with recommendations.
 - System Integration: Combine AI-based tools with expert clinical input and national early-warning systems for comprehensive outbreak management.
 
----
+
 
 ## Potential Solutions
 
