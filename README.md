@@ -130,3 +130,7 @@
 - Explainable AI (XAI) for Clinical Decision Support: Implement XAI tools (e.g., Grad-CAM, SHAP) to make deep learning model predictions interpretable, providing actionable insights for clinicians.
 - Multi-Class Classification for Skin Lesion Diseases: Develop multi-class deep learning models to differentiate Mpox from other similar diseases (e.g., chickenpox, herpes) using combined imaging and molecular data.
 
+## Gantt Chart 
+<div align="center"> 
+<img href="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/gantt.jpg?raw=true"/> 
+</div>
