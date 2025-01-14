@@ -25,11 +25,11 @@
 ### **Paper Title**: Monkey Pox Diagnosis with Interpretable Deep Learning
 
 #### Working Processes:
-- Data Collection and Augmentation: Collect lesion images and genomic data, and use augmentation (e.g., flipping, scaling) to improve diversity.
-- Transfer Learning with Pre-trained Models: Use pre-trained models like VGG19 and MobileNetV2, fine-tuning them for Mpox diagnosis.
-- Explainability with LIME: Employ LIME to highlight critical features like lesion size and shape, making AI predictions transparent.
-- Model Evaluation: Evaluate models using metrics such as accuracy, precision, recall, and F1-score.
-- Deployment in Clinical Tools: Integrate AI models into mobile apps or clinical decision systems for real-world use.
+- **Data Collection and Augmentation**: Collect lesion images and genomic data, and use augmentation (e.g., flipping, scaling) to improve diversity.
+- **Transfer Learning with Pre-trained Models**: Use pre-trained models like VGG19 and MobileNetV2, fine-tuning them for Mpox diagnosis.
+- **Explainability with LIME**: Employ LIME to highlight critical features like lesion size and shape, making AI predictions transparent.
+- **Model Evaluation**: Evaluate models using metrics such as accuracy, precision, recall, and F1-score.
+- **Deployment in Clinical Tools**: Integrate AI models into mobile apps or clinical decision systems for real-world use.
 
 #### Limitations:
 - Small Dataset Size: Limited data availability reduces the model’s accuracy and generalizability.
