@@ -132,5 +132,5 @@
 
 ## Gantt Chart 
 <div align="center"> 
-<img href="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/gantt.jpg?raw=true"/> 
+<img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/gantt.jpg"/> 
 </div>
