@@ -1,6 +1,6 @@
 ## Thesis Title:
 **Bioinformatics and Deep Learning in Prognosis, Diagnosis, and Clinical Choice of Human Mpox Virus**
-<div align="justify">
+
   
 ## Motivation:
 - **Mpox as a Growing Threat**: Mpox is spreading globally, and quick, accurate diagnosis is essential to control outbreaks effectively.
@@ -129,7 +129,6 @@
 - Explainable AI (XAI) for Clinical Decision Support: Implement XAI tools (e.g., Grad-CAM, SHAP) to make deep learning model predictions interpretable, providing actionable insights for clinicians.
 - Multi-Class Classification for Skin Lesion Diseases: Develop multi-class deep learning models to differentiate Mpox from other similar diseases (e.g., chickenpox, herpes) using combined imaging and molecular data.
 
-</div>
 
 ## Gantt Chart 
 <div align="center"> 
