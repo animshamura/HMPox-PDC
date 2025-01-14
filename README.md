@@ -1,6 +1,7 @@
 ## Thesis Title:
 **Bioinformatics and Deep Learning in Prognosis, Diagnosis, and Clinical Choice of Human Mpox Virus**
 <div align="justify">
+  
 ## Motivation:
 - **Mpox as a Growing Threat**: Mpox is spreading globally, and quick, accurate diagnosis is essential to control outbreaks effectively.
 - **Challenges with Traditional Methods**: Current diagnostic methods, like PCR, are slow, expensive, and often unavailable in low-resource settings.
