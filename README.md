@@ -137,5 +137,5 @@
 
 ## Proposed Methodology 
 <div align="center"> 
-<img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/method.jpg" width="700" height="1000"/> 
+<img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/method.png" width="700" height="1000"/> 
 </div>
