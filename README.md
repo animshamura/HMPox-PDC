@@ -1,141 +1,53 @@
-## Thesis Title:
-**Bioinformatics and Deep Learning in Prognosis, Diagnosis, and Clinical Choice of Human Mpox Virus**
-
-  
-## Motivation:
-- **Mpox as a Growing Threat**: Mpox is spreading globally, and quick, accurate diagnosis is essential to control outbreaks effectively.
-- **Challenges with Traditional Methods**: Current diagnostic methods, like PCR, are slow, expensive, and often unavailable in low-resource settings.
-- **Power of Deep Learning**: AI can analyze images and medical data to detect Mpox with high accuracy, making diagnosis faster and more reliable.
-- **Role of Bioinformatics**: Bioinformatics helps study the virus genetic data, identify strains, and track mutations for better disease management.
-- **Preparedness for Future Outbreaks**: Combining bioinformatics and AI can improve Mpox care and create a model for tackling other emerging diseases in the future.
 
 
+# **Bioinformatics & Deep Learning for Mpox Virus Diagnosis & Treatment**
 
-## Objective:
-- **Enhance Diagnostic Accuracy**: Use deep learning models to improve the precision and speed of Mpox detection.
-- **Enable Early Prognosis**: Develop tools to predict disease severity and progression for better patient care.
-- **Support Clinical Decision-Making**: Combine AI and bioinformatics to recommend personalized treatment options for Mpox patients.
-- **Address Data Challenges**: Use synthetic data and transfer learning to overcome the limitations of small datasets.
-- **Facilitate Genomic Understanding**: Apply bioinformatics to study virus mutations and strains to improve outbreak control and disease management.
+## **Overview**
+Mpox is rapidly spreading globally, and timely, accurate diagnosis is critical. Traditional diagnostic methods like PCR are slow and costly, often inaccessible in resource-limited settings. Deep learning and bioinformatics offer innovative solutions, enabling faster, more reliable diagnoses and personalized treatment options. This research focuses on enhancing Mpox management through AI, leveraging both imaging and genetic data.
 
+## **Objectives**
+- **Boost Diagnostic Accuracy**: Improve Mpox detection using deep learning models.
+- **Early Prognosis**: Predict disease progression and severity for better patient care.
+- **Support Clinical Decisions**: Combine AI and bioinformatics for tailored treatment suggestions.
+- **Overcome Data Limitations**: Use synthetic data and transfer learning to address small datasets.
+- **Enhance Genomic Understanding**: Study virus mutations for more effective outbreak control.
 
+## **Literature Insights**
 
-## Literature Review:
+### **1. Monkey Pox Diagnosis with Interpretable Deep Learning**
+- **Method**: Uses pre-trained models (e.g., VGG19, MobileNetV2) with LIME for interpretability.
+- **Limitations**: Small datasets, generalization issues, and lack of clinical validation.
+- **Improvements**: Expand datasets, integrate imaging and genomic data, and optimize for mobile deployment.
 
-### **Paper Title**: Monkey Pox Diagnosis with Interpretable Deep Learning
+### **2. PoxNet22: Transfer Learning for Monkeypox Classification**
+- **Method**: Fine-tuned InceptionV3 model with data augmentation.
+- **Limitations**: Limited data, binary classification, and transfer learning dependence.
+- **Improvements**: Add multi-class classification, validate in clinical settings, and explore ensemble models.
 
-#### Working Processes:
-- **Data Collection and Augmentation**: Collect lesion images and genomic data, and use augmentation (e.g., flipping, scaling) to improve diversity.
-- **Transfer Learning with Pre-trained Models**: Use pre-trained models like VGG19 and MobileNetV2, fine-tuning them for Mpox diagnosis.
-- **Explainability with LIME**: Employ LIME to highlight critical features like lesion size and shape, making AI predictions transparent.
-- **Model Evaluation**: Evaluate models using metrics such as accuracy, precision, recall, and F1-score.
-- **Deployment in Clinical Tools**: Integrate AI models into mobile apps or clinical decision systems for real-world use.
+### **3. CNN for Mpox Skin Lesions Classification**
+- **Method**: Uses CNN and Grey Wolf Optimizer (GWO) for model optimization.
+- **Limitations**: Data scarcity, overfitting, and lack of explainability.
+- **Improvements**: Expand datasets, implement explainable AI (Grad-CAM), and optimize for mobile devices.
 
-#### Limitations:
-- Small Dataset Size: Limited data availability reduces the model’s accuracy and generalizability.
-- Generalization Issues: Models may not perform well on diverse populations or varying imaging conditions.
-- Lack of Clinical Validation: AI models are often untested in real-world clinical settings.
-- High Computational Requirements: Training deep learning models demands significant hardware resources.
-- Overfitting Risks: Small datasets lead to overfitting, reducing the model’s reliability.
+### **4. MPXV-CNN for Mpox Lesion Classification**
+- **Method**: Deep CNN with high sensitivity and specificity for Mpox lesions.
+- **Limitations**: Dataset biases, skin tone underrepresentation, and performance degradation with low-quality images.
+- **Improvements**: Expand datasets, refine the model for diverse skin tones, and integrate with national outbreak systems.
 
-#### Scope of Improvement:
-- Expand and Diversify Datasets: Collect larger datasets and use GANs to generate synthetic data for better training.
-- Improve Generalizability: Train models on multi-center datasets and adopt federated learning to ensure diverse performance.
-- Conduct Clinical Validation: Test models in clinical environments to ensure their accuracy and usability.
-- Develop Lightweight Models: Optimize models to run efficiently on mobile devices and low-resource systems.
-- Integrate Imaging and Genomic Data: Combine lesion images with genomic data for comprehensive diagnostic solutions.
+## **Proposed Solutions**
+- **Multi-modal Diagnostics**: Combine lesion images with genomic data for enhanced accuracy.
+- **Federated Learning**: Train models across multiple institutions while maintaining privacy.
+- **Synthetic Data**: Use GANs to generate diverse lesion images, addressing data scarcity.
+- **Explainable AI**: Implement tools like Grad-CAM and SHAP for transparency in clinical decision-making.
+- **Multi-Class Classification**: Develop models to distinguish Mpox from other diseases like chickenpox and herpes.
 
-
-
-### **Paper Title**: PoxNet22: A Fine-Tuned Model for the Classification of Monkeypox Disease Using Transfer Learning
-
-#### Working Processes:
-- Data Preprocessing: Images were enhanced using contrast stretching, histogram equalization, and adaptive equalization to improve quality.
-- Data Augmentation: Techniques like rotation, zooming, and feature-wise centering were applied to expand the dataset and reduce overfitting.
-- Model Selection: Six pre-trained deep learning models were evaluated: DenseNet201, InceptionResNetV2, EfficientNetB7, InceptionV3, ResNet50, and VGG16. Performance metrics included accuracy, precision, recall, and loss.
-- Proposed Model - PoxNet22: Based on InceptionV3 with fine-tuning for enhanced performance. Optimized with data augmentation, fine-tuned parameters, and ADAM optimizer.
-- Evaluation and Performance: Achieved 100% accuracy, recall, and precision on the augmented dataset, demonstrating robust performance.
-
-#### Limitations:
-- Dataset Constraints: Limited availability of high-quality monkeypox skin lesion images.
-- Generalization: Model performance might degrade with real-world, diverse datasets that include noise or varied lighting conditions.
-- Dependency on Transfer Learning: Relies heavily on pre-trained models, which may not be fully optimized for monkeypox classification.
-- Focus on Binary Classification: Primarily distinguishes between "monkeypox" and "others," lacking multi-class classification for other diseases with similar symptoms.
-
-#### Scope of Improvement:
-- Dataset Enhancement: Expand the dataset with diverse, real-world monkeypox lesion images. Collaborate with medical institutions to acquire more annotated samples.
-- Incorporation of Multi-class Classification: Extend the model to differentiate between monkeypox, chickenpox, measles, and other skin conditions.
-- Hybrid and Ensemble Models: Explore combining models or hybrid approaches for improved accuracy and robustness.
-- Explainability and Interpretability: Use tools like Grad-CAM or SHAP to provide better insights into model decisions, aiding clinicians.
-- Real-world Validation: Test the model in clinical settings to validate its effectiveness and reliability.
-- Lightweight Implementation: Optimize the model for deployment on edge devices for faster, resource-efficient diagnosis.
-
-
-
-### **Paper Title**: Utilizing Convolutional Neural Networks to Classify Monkeypox Skin Lesions
-
-#### Working Processes:
-- Data Preprocessing: Removed missing values and balanced the dataset using SMOTEEN for better representation and reduced noise.
-- Feature Selection: Identified significant features such as fever, swollen lymph nodes, and oral lesions through correlation analysis.
-- CNN Architecture: Implemented a convolutional neural network with specific layers optimized for monkeypox classification.
-- Optimization with GWO: Fine-tuned CNN hyperparameters using the Grey Wolf Optimizer (GWO) for enhanced accuracy and performance.
-- Evaluation Metrics: Assessed model performance using accuracy, precision, recall, F1-score, and AUC score, achieving 95.31% accuracy.
-
-#### Limitations:
-- Dataset Availability: Limited and non-representative monkeypox skin lesion images affected generalizability.
-- Model Complexity: High computational resources and expertise required for CNN and GWO optimization.
-- Overfitting Risk: Potential for overfitting due to limited and augmented datasets.
-- Interpretability: Lack of explainability in CNN model decisions for clinical use.
-- Real-world Validation: Insufficient testing in diverse and real-world clinical settings.
-
-#### Scope of Improvement:
-- Dataset Expansion: Collaborate with institutions to acquire a larger and more diverse dataset of annotated monkeypox images.
-- Multi-class Classification: Extend the model to classify other similar skin conditions like chickenpox or herpes.
-- Explainability: Implement explainable AI techniques like Grad-CAM to enhance model transparency.
-- Efficiency: Optimize the CNN architecture for deployment in resource-constrained environments like mobile devices.
-- Integration: Incorporate the model into telemedicine platforms for real-time diagnosis and improved healthcare accessibility.
-
-
-
-### **Paper Title**: A deep-learning algorithm to classify skin lesions from mpox virus infection
-
-#### Working Processes:
-- Development of MPXV-CNN: Implementation of a deep convolutional neural network to classify mpox virus lesions with high sensitivity (0.91) and specificity (0.898).
-- Dataset Compilation: Collection of 139,198 images, including 676 MPXV and 138,522 non-MPXV lesion images from diverse sources (public repositories, literature, social media, and clinical images).
-- Performance Evaluation: Use of stratified fivefold cross-validation, external testing, and subgroup analyses to assess algorithm accuracy across different parameters (e.g., skin tone, body region).
-- Integration into PoxApp: Development of a web-based app incorporating the MPXV-CNN to offer personalized patient guidance and risk stratification.
-- SHAP Analysis: Utilization of SHapley Additive exPlanations to interpret CNN predictions by highlighting discriminative image regions.
-
-#### Limitations:
-- Dataset Bias: Limited MPXV image availability and potential biases due to image sourcing (e.g., extraordinary cases over typical ones).
-- Skin Tone Representation: Underrepresentation of certain skin tones (e.g., Fitzpatrick types I and VI) in the dataset, impacting detection accuracy.
-- Image Quality Issues: Algorithm performance decreases with low-quality images (e.g., low-light or blurry conditions).
-- Differential Diagnoses Challenges: High false positive rates for specific conditions (e.g., orf, varicella, and molluscum contagiosum).
-- Generalization: Limited evaluation under real-world conditions, including diverse populations and settings.
-
-#### Scope of Improvement:
-- Dataset Expansion: Acquire more diverse and representative MPXV images through multicenter trials and public contributions.
-- Algorithm Refinement: Explore mobile-optimized architectures and uncertainty quantification to improve usability and reliability.
-- Enhanced Training: Incorporate additional data for challenging differential diagnoses and skin tones with higher false positive rates.
-- Clinical Trials: Conduct prospective studies to validate the app’s real-world effectiveness and compliance with recommendations.
-- System Integration: Combine AI-based tools with expert clinical input and national early-warning systems for comprehensive outbreak management.
-
-
-
-## Potential Solutions
-- Integration of Imaging and Genomic Data: Combine lesion imaging data with genomic and proteomic data to create multi-modal diagnostic models, enhancing diagnostic precision by leveraging both visual and molecular biomarkers.
-- Federated Learning for Multi-Center Dataset Training: Utilize federated learning to train models on diverse datasets from multiple institutions while ensuring data privacy and improving model generalizability.
-- Dataset Expansion Through Synthetic Data Generation (GANs): Use generative adversarial networks (GANs) to generate synthetic images of Mpox lesions, addressing data scarcity and improving training diversity.
-- Explainable AI (XAI) for Clinical Decision Support: Implement XAI tools (e.g., Grad-CAM, SHAP) to make deep learning model predictions interpretable, providing actionable insights for clinicians.
-- Multi-Class Classification for Skin Lesion Diseases: Develop multi-class deep learning models to differentiate Mpox from other similar diseases (e.g., chickenpox, herpes) using combined imaging and molecular data.
-
-
-## Gantt Chart 
+## **Gantt Chart** 
 <div align="center"> 
 <img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/gantt.jpg" width="700" height="500"/> 
 </div>
 
-## Proposed Methodology 
+## **Proposed Methodology** 
 <div align="center"> 
 <img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/method.png" width="700" height="1000"/> 
 </div>
+
