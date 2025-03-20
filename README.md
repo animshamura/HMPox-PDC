@@ -43,11 +43,11 @@ Mpox is rapidly spreading globally, and timely, accurate diagnosis is critical. 
 
 ## **Gantt Chart** 
 <div align="center"> 
-<img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/gantt.jpg" width="400" height="400"/> 
+<img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/gantt.jpg" width="500" height="500"/> 
 </div>
 
 ## **Proposed Methodology** 
 <div align="center"> 
-<img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/method.png" width="400" height="600"/> 
+<img src="https://github.com/animshamura/Human-Mpox-Detection-and-Cure/blob/main/Diagrams/method.png" width="500" height="800"/> 
 </div>
 
