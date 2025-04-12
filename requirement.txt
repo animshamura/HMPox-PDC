@@ -1,0 +1,10 @@
+torch 
+torchvision 
+torchaudio 
+torch_geometric 
+transformers 
+pandas 
+numpy 
+scikit-learn 
+networkx 
+datasets
